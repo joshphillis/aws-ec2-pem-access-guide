@@ -2,6 +2,10 @@
 
 # 🔐 AWS EC2 Instance Deployment & PEM File SSH Access
 
+This repository has been sanitized to remove all sensitive cloud resource identifiers, including login credentials, security group names, public IPs, VPC and subnet IDs, and resource deletion steps. Any environment-specific values presented (such as sample firewall rules or admin logins) have been intentionally generic and are used solely for instructional purposes.
+
+All actions documented in this project follow Microsoft Azure best practices for authentication, access control, and resource protection. Always ensure keys, credentials, and infrastructure metadata are stored securely and never pushed to public repositories.
+
 ## Overview  
 This project demonstrates launching an EC2 instance on **AWS** using a community-provided AMI, configuring security groups for HTTP and SSH access, and securely connecting to the instance via **PEM key-based authentication**. It serves as a foundational exercise in provisioning virtual machines, establishing secure connectivity, and understanding basic AWS networking principles.
 
